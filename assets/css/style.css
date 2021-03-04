@@ -1,0 +1,53 @@
+body {
+    background: rgb(241, 243, 255);
+    padding-top: 0;
+}
+
+.main {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background: rgb(247, 247, 255);
+}
+
+.name {
+    margin-bottom: 1%;
+}
+
+.myself {
+    margin-top: 30px;
+}
+
+.listName {
+    margin-bottom: 3px;
+}
+
+.softSkills,
+.hardSkills {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding-left: 4%;
+}
+
+li {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.code_example {
+    background: rgb(229, 233, 255);
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-bottom: 6%;
+}
+
+.footer {
+    height: 60px;
+}
+
+.header {
+    height: 40px;
+}
