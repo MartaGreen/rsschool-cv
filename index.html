@@ -1,12 +1,67 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
 </head>
+
 <body>
-    
+  <main class="main">
+    <h3>Portnykh Mariia</h3>
+    <h3>Email: portnykhmaria@gmail.com</h3>
+    <article class="myself">
+      My aim: to become highly qualified programmer, active projects’ participant. <br>
+      My current priority is improving my knoweledge of Javascript, HTML, CSS,
+      Python and getting practical skills.
+    </article>
+
+    <ul class="softSkills">
+      <li>Teamplayer</li>
+      <li>Flexible</li>
+      <li>Reliable</li>
+      <li>Responsible</li>
+      <li>Communication</li>
+      <li>Result-oriented</li>
+      <li>Self-organised</li>
+    </ul>
+
+    <ul class="hardSkills">
+      <li>Basic knowledge of Python</li>
+      <li>Basic knowledge of javascript</li>
+      <li>Basic knowledge of css and HTML/li>
+      <li>Basic knowledge of ajax</li>
+      <li>Basic knowledge of sqlite</li>
+    </ul>
+
+    <code class="code_example">
+      T = int(input())
+
+      for _ in range(T):
+          N, K = list(map(int, input().split()))
+          points = list(map(int, input().split()))
+
+          for i in range(N):
+              result = 0
+              solved = input()
+              solved = [int(simb) for simb in solved]
+              j = 0
+              while j < len(solved):
+                  if solved[j] == 1:
+                      result += points[j]
+                  j += 1
+              print(result)
+    </code>
+
+    <article class="education">
+      I am a student at Samara Liceum of the Samara University. I started learning coding at the age of 12 attending I
+      nternational CODDY school. I am practicing on a regular basis at free sources. <br>
+      Certificates: IBM Mainframe (2021) <br>
+      English B2 <br>
+    </article>
+  </main>
 </body>
+
 </html>
