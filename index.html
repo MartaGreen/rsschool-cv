@@ -18,6 +18,7 @@
       Python and getting practical skills.
     </article>
 
+    <h4 class="listName">Soft Skills</h4>
     <ul class="softSkills">
       <li>Teamplayer</li>
       <li>Flexible</li>
@@ -28,6 +29,7 @@
       <li>Self-organised</li>
     </ul>
 
+    <h4 class="listName">Hard Skills</h4>
     <ul class="hardSkills">
       <li>Basic knowledge of Python</li>
       <li>Basic knowledge of javascript</li>
@@ -36,24 +38,26 @@
       <li>Basic knowledge of sqlite</li>
     </ul>
 
-    <code class="code_example">
-      T = int(input())
+    <pre>
+      <code class="code_example">
+        T = int(input())
 
-      for _ in range(T):
-          N, K = list(map(int, input().split()))
-          points = list(map(int, input().split()))
+        for _ in range(T):
+            N, K = list(map(int, input().split()))
+            points = list(map(int, input().split()))
 
-          for i in range(N):
-              result = 0
-              solved = input()
-              solved = [int(simb) for simb in solved]
-              j = 0
-              while j < len(solved):
-                  if solved[j] == 1:
-                      result += points[j]
-                  j += 1
-              print(result)
-    </code>
+            for i in range(N):
+                result = 0
+                solved = input()
+                solved = [int(simb) for simb in solved]
+                j = 0
+                while j < len(solved):
+                    if solved[j] == 1:
+                        result += points[j]
+                    j += 1
+                print(result)
+      </code>
+    </pre>
 
     <article class="education">
       I am a student at Samara Liceum of the Samara University. I started learning coding at the age of 12 attending I
