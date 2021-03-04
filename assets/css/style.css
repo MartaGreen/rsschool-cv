@@ -4,6 +4,7 @@ body {
 }
 
 .main {
+    position: relative;
     margin-left: 10%;
     margin-right: 10%;
     padding-left: 3%;
@@ -13,12 +14,21 @@ body {
     background: rgb(247, 247, 255);
 }
 
+.avatar {
+    position: absolute;
+    height: 21%;
+    width: 27%;
+    right: 6%;
+    top: 3%;
+}
+
 .name {
     margin-bottom: 1%;
 }
 
 .myself {
     margin-top: 30px;
+    width: 62%;
 }
 
 .listName {
