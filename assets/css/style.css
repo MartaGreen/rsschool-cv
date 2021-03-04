@@ -17,23 +17,23 @@ body {
     height: 150px;
     position: relative;
     padding: 3% 10% 0px 4%;
-    margin-bottom: 10%;
+    margin-bottom: 6%;
 }
 
 .avatar {
     position: absolute;
-    height: 100%;
-    width: 27%;
-    right: 5%;
+    height: 90%;
+    
+    right: 8%;
     top: 20%;
 }
 
 .name {
-    margin-bottom: 1%;
+    margin-bottom: 1.5%;
 }
 
 .myself {
-    margin-top: 15px;
+    margin-top: 5%;
     width: 62%;
 }
 
@@ -56,7 +56,7 @@ li {
 
 .code_example {
     background: rgb(229, 233, 255);
-    border-radius: 5px;
+    border-radius: 7px;
     margin-top: 5%;
     margin-bottom: 6%;
 }
