@@ -4,7 +4,6 @@ body {
 }
 
 .main {
-    position: relative;
     margin-left: 10%;
     margin-right: 10%;
     padding-left: 3%;
@@ -14,12 +13,19 @@ body {
     background: rgb(247, 247, 255);
 }
 
+.mainInfo {
+    height: 150px;
+    position: relative;
+    padding: 3% 10% 0px 4%;
+    margin-bottom: 10%;
+}
+
 .avatar {
     position: absolute;
-    height: 21%;
+    height: 100%;
     width: 27%;
-    right: 6%;
-    top: 3%;
+    right: 5%;
+    top: 20%;
 }
 
 .name {
@@ -27,19 +33,20 @@ body {
 }
 
 .myself {
-    margin-top: 30px;
+    margin-top: 15px;
     width: 62%;
 }
 
 .listName {
     margin-bottom: 3px;
+    margin-left: 4%;
 }
 
 .softSkills,
 .hardSkills {
     margin-top: 7px;
     margin-bottom: 7px;
-    padding-left: 4%;
+    padding-left: 9%;
 }
 
 li {
