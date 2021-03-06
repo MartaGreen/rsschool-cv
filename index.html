@@ -12,16 +12,20 @@
 <body>
   <header class="header"></header>
   <main class="main">
-    <div class="mainInfo">
-      <h4 class="name">Portnykh Mariia</h4>
-      <article class="email"><b> Email: </b> portnykhmaria@gmail.com</article>
+    <article class="mainInfo">
+      <h3 class="name">Portnykh Mariia</h3>
+      <h4 class="listName">Contacts: </h4>
+      <ul class="contacts">
+        <li class="email"> <b> Email: </b> portnykhmaria@gmail.com </li>
+        <li><b> Phone: </b> +7 967 XXX XX XX</li>
+      </ul>
       <img src="assets/images/avatar.png" alt="Photo of my avatar" class="avatar">
-      <article class="myself">
+      <div class="myself">
         <b>My aim:</b> to become highly qualified programmer, active projects’ participant. <br>
         My current priority is improving my knoweledge of Javascript, HTML, CSS,
         Python and getting practical skills.
-      </article>
-    </div>
+      </div>
+    </article>
 
     <h4 class="listName">Soft Skills</h4>
     <ul class="softSkills">
@@ -43,8 +47,7 @@
       <li>Basic knowledge of sqlite</li>
     </ul>
 
-    <article class="code_example">
-      <pre>
+      <pre class="code_example">
         <code>
           T = int(input())
 
@@ -57,27 +60,29 @@
                   solved = input()
                   solved = [int(simb) for simb in solved]
                   j = 0
-                  while j < len(solved):
+                  while j &lt; len(solved):
                       if solved[j] == 1:
                           result += points[j]
                       j += 1
                   print(result)
         </code>
       </pre>
-    </article>
 
-    <article class="education">
+    <section class="education">
+      <h5>Education: </h5>
       I am a student at Samara Liceum of the Samara University. I started learning coding at the age of 12 attending
       International CODDY school. I am practicing on a regular basis at free sources. <br>
       Certificates: IBM Mainframe (2021) <br>
       English B2 <br>
-    </article>
+    </section>
   </main>
   <footer class="footer">
-    <a href="https://github.com/MartaGreen" class="githubLink footer-elem">Account</a>
-    <article class="footer-elem year">@2021</article>
-    <a href="https://rs.school/js/" class="courseLink footer-elem"> <img src="https://rs.school/images/rs_school_js.svg"
-        alt="Rsschool logo" class="logo"></a>
+    <nav>
+      <a href="https://github.com/MartaGreen" class="githubLink footer-elem">Account</a>
+      <div class="footer-elem year">© 2021</div>
+      <a href="https://rs.school/js/" class="courseLink footer-elem"> <img
+          src="https://rs.school/images/rs_school_js.svg" alt="Rsschool logo" class="logo"></a>
+    </nav>
   </footer>
 </body>
 
