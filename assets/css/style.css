@@ -19,7 +19,7 @@ body {
     /* positioning */
     position: relative;
     padding: 3% 10% 0px 4%;
-    margin-bottom: 6%;
+    margin-bottom: 11%;
 
     /* Box-model */
     height: 150px;
@@ -29,7 +29,7 @@ body {
     /* positioning */
     position: absolute;
     right: 5%;
-    top: 15%;
+    top: 20%;
 
     /* Box-model */
     height: 100%;
@@ -48,7 +48,8 @@ body {
 .listName { margin: 0 0 3px 4%; }
 
 .softSkills,
-.hardSkills {
+.hardSkills,
+.contacts {
     /* positioning */
     margin: 7px 0;
     padding-left: 9%;
@@ -109,3 +110,5 @@ li { margin: 3px 0; }
     width: 100%;
     height: 50px;
 }
+
+h5 { margin-bottom: 1%;}
