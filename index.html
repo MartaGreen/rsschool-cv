@@ -12,20 +12,22 @@
 <body>
   <header class="header"></header>
   <main class="main">
-    <article class="mainInfo">
+    <section class="mainInfo">
       <h3 class="name">Portnykh Mariia</h3>
       <h4 class="listName">Contacts: </h4>
-      <ul class="contacts">
-        <li class="email"> <b> Email: </b> portnykhmaria@gmail.com </li>
-        <li><b> Phone: </b> +7 967 XXX XX XX</li>
-      </ul>
-      <img src="assets/images/avatar.png" alt="Photo of my avatar" class="avatar">
+      <address>
+        <ul class="contacts">
+          <li id="email"> <strong> Email: </strong> portnykhmaria@gmail.com </li>
+          <li id="phone"><strong> Phone: </strong> +7 967 XXX XX XX</li>
+        </ul>
+      </address>
+      <picture><img src="assets/images/avatar.png" alt="Photo of my avatar" class="avatar"> </picture>
       <div class="myself">
-        <b>My aim:</b> to become highly qualified programmer, active projects’ participant. <br>
+        <strong>My aim:</strong> to become highly qualified programmer, active projects’ participant. <br>
         My current priority is improving my knoweledge of Javascript, HTML, CSS,
         Python and getting practical skills.
       </div>
-    </article>
+    </section>
 
     <h4 class="listName">Soft Skills</h4>
     <ul class="softSkills">
@@ -43,11 +45,12 @@
       <li>Basic knowledge of Python</li>
       <li>Basic knowledge of Javascript</li>
       <li>Basic knowledge of CSS and HTML</li>
+      <li>Basic knowledge of Mainframe requests</li>
       <li>Basic knowledge of ajax</li>
       <li>Basic knowledge of sqlite</li>
     </ul>
 
-      <pre class="code_example">
+    <pre class="code_example">
         <code>
           T = int(input())
 
@@ -79,9 +82,10 @@
   <footer class="footer">
     <nav>
       <a href="https://github.com/MartaGreen" class="githubLink footer-elem">Account</a>
-      <div class="footer-elem year">© 2021</div>
-      <a href="https://rs.school/js/" class="courseLink footer-elem"> <img
-          src="https://rs.school/images/rs_school_js.svg" alt="Rsschool logo" class="logo"></a>
+      <time datetime="2021" class="footer-elem year">© 2021</time>
+      <a href="https://rs.school/js/" class="courseLink footer-elem">
+        <picture><img src="https://rs.school/images/rs_school_js.svg" alt="Rsschool logo" class="logo"> </picture>
+      </a>
     </nav>
   </footer>
 </body>
